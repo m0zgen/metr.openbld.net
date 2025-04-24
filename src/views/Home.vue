@@ -115,6 +115,18 @@ import DnsLeakCheck from '@/components/DnsLeakCheck.vue'
 const domains = ref([
       { name: 'blockcheck1.system-checks.org', blocked: false },
       { name: 'blockcheck2.system-checks.org', blocked: false },
+      { name: 'analytics.google.com', blocked: false },
+      { name: 'click.googleanalytics.com', blocked: false },
+      { name: 'pagead2.googleadservices.com', blocked: false },
+      { name: 'pagead2.googlesyndication.com', blocked: false },
+      { name: 'static.ads-twitter.com', blocked: false },
+      { name: 'adx.ads.oppomobile.com', blocked: false },
+      { name: 'api.ad.xiaomi.com', blocked: false },
+      { name: 'bdapi-in-ads.realmemobile.com', blocked: false },
+      { name: 'click.oneplus.cn', blocked: false },
+      { name: 'eic-ngfts.lge.com', blocked: false },
+      { name: 'samsungads.com', blocked: false },
+
     ]
 )
 
